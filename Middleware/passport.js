@@ -1,4 +1,4 @@
-const { User } = require("../api/users/controllers");
+const { User } = require("../db/models");
 const { JWT_SECRET } = require("../config/keys");
 const bcrypt = require("bcrypt");
 const JWTStrategy = require("passport-jwt").Strategy;
